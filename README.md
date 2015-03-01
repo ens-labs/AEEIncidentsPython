@@ -20,4 +20,6 @@ How to run the basics scripts
 
 How to run the twitter scripts
 ==============================
-They are on their way!!
+
+* **python breakdowntweet.py** To tweet the averias in a town that you select.
+* **python breakdowntweetall.py** To Tweet the averias in every town.
