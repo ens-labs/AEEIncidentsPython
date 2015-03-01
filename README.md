@@ -1,7 +1,9 @@
 # AEEIncidentsPython
 
 
-AEEIncidents made in Python with suds, this is based on the Ruby "version" I made.. Minified version, only works in terminal. The Web App is in progress.
+AEEIncidents made in Python with suds, this is based on the Ruby "version" I made. Minified version, only works in terminal. 
+I am also going to do a sort of API with this by using Djando, it is on its way.
+
 The basic script is: **breakdownreport.py**
 
 Requirements
