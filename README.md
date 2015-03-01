@@ -22,4 +22,4 @@ How to run the twitter scripts
 ==============================
 
 * **python breakdowntweet.py** To tweet the averias in a town that you select.
-* **python breakdowntweetall.py** To Tweet the averias in every town.
+* **python breakdowntweetall.py** To Tweet all of the averias in every town.
