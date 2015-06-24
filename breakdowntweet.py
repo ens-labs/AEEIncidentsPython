@@ -15,7 +15,7 @@ for town in towns:
 print "Enter the town name to tweet the breakdowns: "
 town = raw_input()
 
-averias = aee_client.service.getBreakdownsByTownOrCity(town.upper())
-for averia in averias: 
-	tweet = "@AEEONLINE tienes averia en: " + averia.r1TownOrCity ", " + averia.r2Area + ", Status: " + averia.r3Status
+breakdowns = aee_client.service.getBreakdownsByTownOrCity(town.upper())
+for breakdown in breakdowns: 
+	tweet = "@AEEONLINE tienes averia en: " + breakdown.r1TownOrCity ", " + breakdown.r2Area + ", Status: " + breakdown.r3Status
 	twitterApi.PostUpdate(tweet)
