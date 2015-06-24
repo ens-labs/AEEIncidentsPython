@@ -13,4 +13,3 @@ for town in towns:
         print "Status: " + averia.r3Status
         print "Last Update: " + averia.r4LastUpdate
         print "***************************************"
-
