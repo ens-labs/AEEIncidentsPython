@@ -8,7 +8,7 @@ twitterApi = twitter.Api(consumer_key = CONSUMER_KEY, consumer_secret = CONSUMER
 towns = aee_client.service.getBreakdownsSummary()
 
 for town in towns:
-    averias = aee_client.service.getBreakdownsByTownOrCity(town.r1TownOrCity)
-    for averia in averias: 
-		tweet = "@AEEONLINE tienes averia en: " + averia.r1TownOrCity ", " + averia.r2Area + ", Status: " + averia.r3Status
+    breakdowns = aee_client.service.getBreakdownsByTownOrCity(town.r1TownOrCity)
+    for breakdown in breakdowns: 
+		tweet = "@AEEONLINE tienes averia en: " + breakdown.r1TownOrCity ", " + breakdown.r2Area + ", Status: " + breakdown.r3Status
 		twitterApi.PostUpdate(tweet)
